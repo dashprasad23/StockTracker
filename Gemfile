@@ -57,6 +57,8 @@ gem "sassc-rails"
 
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
