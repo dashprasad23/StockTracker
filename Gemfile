@@ -59,6 +59,9 @@ gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
+gem 'iex-ruby-client', '~> 2.0'
+
+
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"

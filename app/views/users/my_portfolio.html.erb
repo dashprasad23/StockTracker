@@ -1,0 +1,15 @@
+<div class="container">
+  <h3 class="display-4">Portfolio</h3>
+
+  <h5>Search stock</h5>
+
+  <%= form_tag search_stock_path('stock'), method: :get do %>
+    <div class="input-group mb-3">
+      <%= text_field_tag :stock, params[:stock], class:"form-control", placeholder: "search ticker symbol", autofocus: true %>
+      <%= button_tag type: :submit, class: "btn btn-outline-secondary" do %>
+      <%= 'Search' %>
+      <% end  %>
+    </div>
+  <% end %>
+
+</div>
